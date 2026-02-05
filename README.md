@@ -32,7 +32,7 @@ Begin by installing the library via your preferred package manager, then follow 
 ## How To Usage?
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:kayzennotdev/bail"
+  "@whiskeysockets/baileys": "github:yifan-source/buleys"
 }
 ```
 ## Import
@@ -51,7 +51,7 @@ const {
   default: makeWASocket
 } = require('@whiskeysockets/baileys');
 
-const client = makeWASocket({
+const YifanModss = makeWASocket({
   browser: ['Ubuntu', 'Chrome', '20.00.1'],
   printQRInTerminal: true
 })
@@ -64,7 +64,7 @@ const {
   fetchLatestWAWebVersion
 } = require('@whiskeysockets/baileys');
 
-const client = makeWASocket({
+const YifanModss = makeWASocket({
   browser: ['Ubuntu', 'Chrome', '20.00.1'],
   printQRInTerminal: false,
   version: fetchLatestWAWebVersion()
@@ -84,7 +84,7 @@ console.log("Ur pairing code : " + code)
 const fs = require('fs');
 const nameImg = fs.readFileSync('./YourImage');
 
-await client.sendMessage(m.chat, {
+await YifanModss.sendMessage(m.chat, {
   thumbnail: YourImg,
   message: "Gotta get a grip",
   orderTitle: "HaveANiceDay",
@@ -95,19 +95,19 @@ await client.sendMessage(m.chat, {
 
 ## send pollResultSnapshotMessage
 ```javascript
-await client.sendMessage(m.chat, {
+await YifanModss.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "n",
+    name: "YifanModss pollMessage",
     options: [
       {
-        optionName: "poll 1"
+        optionName: "YifanTzyy Ganteng"
       },
       {
-        optionName: "poll 2"
+        optionName: "Binzz Eek"
       }
     ],
     newsletter: {
-      newsletterName: "Kayzennotdev",
+      newsletterName: "YifanTzyy",
       newsletterJid: "1@newsletter"
     }
   }
@@ -116,20 +116,20 @@ await client.sendMessage(m.chat, {
 
 ## send productMessage
 ```javascript
-await client.relayMessage(m.chat, {
+await YifanModss.relayMessage(m.chat, {
   productMessage {
-    title: "",
-    description: "zZZ...",
-    thumbnail: { url: "./YourImage" },
-    productId: "EXAMPLE_TOKEN",
+    title: "YifanTzyy",
+    description: "YifanModss",
+    thumbnail: { url: "linkCatboxTourl" },
+    productId: "PRODUCT_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/kayzennotdev",
-    body: "Nak Tido",
-    footer: "Footer",
+    url: "https://t.me/yifanmodss",
+    body: "YifanModss",
+    footer: "YifanTzyy Modss",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"kayzen\",\"url\":\"https://t.me/kayzennotdev\"}"
+        buttonParamsJson: "{\"display_text\":\"YifanModss\",\"url\":\"https://t.me/yifanmodss\"}"
       }
     ],
     priceAmount1000: 72502,
@@ -141,9 +141,8 @@ await client.relayMessage(m.chat, {
 ```javascript
 const thanksFor = async () => {
   const credit = new Map([
-    ["kayzen", ""],
-    ["Gupong", "source my fork"],
-    ["yuukey", "main source baileys ( maybe )"]
+    ["YifanTzyy", "Source Baileys"],
+    ["Gupong", "source my fork"]
   ]);
 
   return Object.fromEntries(credit);
