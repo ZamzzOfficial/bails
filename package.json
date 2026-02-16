@@ -1,16 +1,16 @@
 {
-    "name": "yifantzyy",
+    "name": "ZamzzOfficial",
     "version": "1.0.0",
     "description": "just from japanese",
     "keywords": [
         "whatsapp-baileys"
     ],
-    "homepage": "https://github.com/yifan-source/buleys",
+    "homepage": "https://github.com/ZamzzOfficial/bails",
     "repository": {
-        "url": "https://github.com/yifan-source/buleys"
+        "url": "https://github.com/ZamzzOfficial/bails"
     },
     "license": "MIT",
-    "author": "YifanModss",
+    "author": "ZamzzOfficial",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
